@@ -17,6 +17,10 @@
 		A1D788612791B78A00BD648E /* MiniBusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D788602791B78A00BD648E /* MiniBusTests.swift */; };
 		A1D7886B2791B78A00BD648E /* MiniBusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D7886A2791B78A00BD648E /* MiniBusUITests.swift */; };
 		A1D7886D2791B78A00BD648E /* MiniBusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D7886C2791B78A00BD648E /* MiniBusUITestsLaunchTests.swift */; };
+		A1D7887E2791BCA500BD648E /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D7887D2791BCA500BD648E /* DeviceViewController.swift */; };
+		A1D788802791BCB800BD648E /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D7887F2791BCB800BD648E /* AddEditViewController.swift */; };
+		A1D788872791BE4800BD648E /* Device+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D788852791BE4800BD648E /* Device+CoreDataClass.swift */; };
+		A1D788882791BE4800BD648E /* Device+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D788862791BE4800BD648E /* Device+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A1D788662791B78A00BD648E /* MiniBusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniBusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D7886A2791B78A00BD648E /* MiniBusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBusUITests.swift; sourceTree = "<group>"; };
 		A1D7886C2791B78A00BD648E /* MiniBusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A1D7887D2791BCA500BD648E /* DeviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		A1D7887F2791BCB800BD648E /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		A1D788852791BE4800BD648E /* Device+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A1D788862791BE4800BD648E /* Device+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		A1D7883A2791B78800BD648E = {
 			isa = PBXGroup;
 			children = (
+				A1D788852791BE4800BD648E /* Device+CoreDataClass.swift */,
+				A1D788862791BE4800BD648E /* Device+CoreDataProperties.swift */,
 				A1D788452791B78900BD648E /* MiniBus */,
 				A1D7885F2791B78A00BD648E /* MiniBusTests */,
 				A1D788692791B78A00BD648E /* MiniBusUITests */,
@@ -109,6 +119,8 @@
 				A1D788542791B78A00BD648E /* LaunchScreen.storyboard */,
 				A1D788572791B78A00BD648E /* Info.plist */,
 				A1D7884F2791B78900BD648E /* MiniBus.xcdatamodeld */,
+				A1D7887D2791BCA500BD648E /* DeviceViewController.swift */,
+				A1D7887F2791BCB800BD648E /* AddEditViewController.swift */,
 			);
 			path = MiniBus;
 			sourceTree = "<group>";
@@ -262,7 +274,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1D7884B2791B78900BD648E /* ViewController.swift in Sources */,
+				A1D7887E2791BCA500BD648E /* DeviceViewController.swift in Sources */,
 				A1D788472791B78900BD648E /* AppDelegate.swift in Sources */,
+				A1D788872791BE4800BD648E /* Device+CoreDataClass.swift in Sources */,
+				A1D788802791BCB800BD648E /* AddEditViewController.swift in Sources */,
+				A1D788882791BE4800BD648E /* Device+CoreDataProperties.swift in Sources */,
 				A1D788492791B78900BD648E /* SceneDelegate.swift in Sources */,
 				A1D788512791B78900BD648E /* MiniBus.xcdatamodeld in Sources */,
 			);
